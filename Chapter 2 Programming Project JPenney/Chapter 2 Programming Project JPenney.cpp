@@ -16,4 +16,5 @@ int main()
     cout << "Maximum mileage driving only on the highway:";
     cout << b;
 
+    return 0;
 }
