@@ -14,7 +14,7 @@ int main()
 
     float b = a * .58;
     cout << "Approximate number of customers who prefer citrus flavored energy drinks:";
-    cout << b;
+    cout << round(b);
 
     return 0;
 }
