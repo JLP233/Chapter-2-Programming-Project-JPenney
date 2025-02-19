@@ -6,19 +6,14 @@ using namespace std;
 
 int main()
 {
-    float a = 1.5 * 5;
-    std::cout << "Number of millimeters higher than the current level that the ocean level will be in 5 years:";
+    float a = 20 * 23.5;
+    std::cout << "Maximum mileage driving only in town:";
     std::cout << a;
 
     std::cout << "\n";
 
-    float b = 1.5 * 7;
-    std::cout << "Number of millimeters higher than the current level that the ocean level will be in 7 years:";
+    float b = 20 * 28.9;
+    std::cout << "Maximum mileage driving only on the highway:";
     std::cout << b;
 
-    std::cout << "\n";
-
-    float c = 1.5 * 10;
-    std::cout << "Number of millimeters higher than the current level that the ocean level will be in 10 years:";
-    std::cout << c;
 }
