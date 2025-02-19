@@ -21,4 +21,6 @@ int main()
     float c = 1.5 * 10;
     cout << "Number of millimeters higher than the current level that the ocean level will be in 10 years:";
     cout << c;
+
+    return 0;
 }
