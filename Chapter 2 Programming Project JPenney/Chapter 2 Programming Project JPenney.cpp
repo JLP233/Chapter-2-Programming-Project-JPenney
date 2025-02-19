@@ -6,14 +6,15 @@ using namespace std;
 
 int main()
 {
-    float a = 20 * 23.5;
-    cout << "Maximum mileage driving only in town:";
+    float a = 16500 * .15;
+    cout << "Approximate number of customers who buy one or more energy drinks in a week:";
     cout << a;
 
     cout << "\n";
 
-    float b = 20 * 28.9;
-    cout << "Maximum mileage driving only on the highway:";
+    float b = a * .58;
+    cout << "Approximate number of customers who prefer citrus flavored energy drinks:";
     cout << b;
 
+    return 0;
 }
