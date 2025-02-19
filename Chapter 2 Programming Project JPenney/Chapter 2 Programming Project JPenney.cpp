@@ -7,13 +7,13 @@ using namespace std;
 int main()
 {
     float a = 20 * 23.5;
-    std::cout << "Maximum mileage driving only in town:";
-    std::cout << a;
+    cout << "Maximum mileage driving only in town:";
+    cout << a;
 
-    std::cout << "\n";
+    cout << "\n";
 
     float b = 20 * 28.9;
-    std::cout << "Maximum mileage driving only on the highway:";
-    std::cout << b;
+    cout << "Maximum mileage driving only on the highway:";
+    cout << b;
 
 }
