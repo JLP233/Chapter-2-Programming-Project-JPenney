@@ -1,20 +1,21 @@
 // Chapter 2 Programming Project JPenney.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
+// 
+//This program calculates the number of customers who buy one or more energy drinks a week and the number of them that prefer the citrus flavor.
 
 #include <iostream>
 using namespace std;
 
 int main()
 {
-    float a = 16500 * .15;
+    float EnergyDrinkBuyingCustomers = 16500 * .15;
     cout << "Approximate number of customers who buy one or more energy drinks in a week:";
-    cout << a;
+    cout << EnergyDrinkBuyingCustomers;
 
     cout << "\n";
 
-    float b = a * .58;
+    float CustomersWhoPreferCitrusEnergyDrinks = EnergyDrinkBuyingCustomers * .58;
     cout << "Approximate number of customers who prefer citrus flavored energy drinks:";
-    cout << round(b);
+    cout << round(CustomersWhoPreferCitrusEnergyDrinks);
 
     return 0;
 }
