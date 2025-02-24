@@ -1,20 +1,23 @@
 // Chapter 2 Programming Project JPenney.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
+// 
+//This program calculates the total distance in miles a car can drive on one tank of gas in a town v.s. on the highway.
+
+
 
 #include <iostream>
 using namespace std;
 
 int main()
 {
-    float a = 20 * 23.5;
+    float MaximumMileageDrivingInTown = 20 * 23.5;
     cout << "Maximum mileage driving only in town:";
-    cout << a;
+    cout << MaximumMileageDrivingInTown;
 
     cout << "\n";
 
-    float b = 20 * 28.9;
+    float MaximumMileageDrivingOnTheHighway = 20 * 28.9;
     cout << "Maximum mileage driving only on the highway:";
-    cout << b;
+    cout << MaximumMileageDrivingOnTheHighway;
 
     return 0;
 }
