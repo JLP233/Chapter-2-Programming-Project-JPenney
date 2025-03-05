@@ -7,13 +7,18 @@ using namespace std;
 
 int main()
 {
-    float EnergyDrinkBuyingCustomers = 16500 * .15;
+    const int DrinkCompanyCustomersSurveryed = 16500;
+
+    const float PercentOfSurveryedThatPurchaseOneOrMoreEnergyDrinksAWeek = .15;
+    const float PercentOfDrinkPurchasersWhoPreferCitrusFlavor = .58;
+
+    float EnergyDrinkBuyingCustomers = DrinkCompanyCustomersSurveryed * PercentOfSurveryedThatPurchaseOneOrMoreEnergyDrinksAWeek;
     cout << "Approximate number of customers who buy one or more energy drinks in a week:";
     cout << EnergyDrinkBuyingCustomers;
 
     cout << "\n";
 
-    float CustomersWhoPreferCitrusEnergyDrinks = EnergyDrinkBuyingCustomers * .58;
+    float CustomersWhoPreferCitrusEnergyDrinks = EnergyDrinkBuyingCustomers * PercentOfDrinkPurchasersWhoPreferCitrusFlavor;
     cout << "Approximate number of customers who prefer citrus flavored energy drinks:";
     cout << round(CustomersWhoPreferCitrusEnergyDrinks);
 
