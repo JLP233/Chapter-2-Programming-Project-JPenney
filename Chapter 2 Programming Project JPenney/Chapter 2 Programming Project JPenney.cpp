@@ -7,19 +7,25 @@ using namespace std;
 
 int main()
 {
-    float OceanHeightIn5Years = 1.5 * 5;
+    const float OceanLevelRisePerYear = 1.5;
+
+    const int Years5 = 5;  
+    const int Years7 = 7;
+    const int Years10 = 10;
+    
+    float OceanHeightIn5Years = OceanLevelRisePerYear * Years5;
     cout << "Number of millimeters higher than the current level that the ocean level will be in 5 years:";
     cout << OceanHeightIn5Years;
 
     cout << "\n";
 
-    float OceanHeightIn7Years = 1.5 * 7;
+    float OceanHeightIn7Years = OceanLevelRisePerYear * Years7;
     cout << "Number of millimeters higher than the current level that the ocean level will be in 7 years:";
     cout << OceanHeightIn7Years;
 
     cout << "\n";
 
-    float OceanHeightIn10Years = 1.5 * 10;
+    float OceanHeightIn10Years = OceanLevelRisePerYear * Years10;
     cout << "Number of millimeters higher than the current level that the ocean level will be in 10 years:";
     cout << OceanHeightIn10Years;
 
