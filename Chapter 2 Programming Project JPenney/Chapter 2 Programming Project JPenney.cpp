@@ -9,13 +9,18 @@ using namespace std;
 
 int main()
 {
-    float MaximumMileageDrivingInTown = 20 * 23.5;
+    const int MaximumGallonsInGasTank = 20;
+
+    const float MpgInTown = 23.5;
+    const float MpgHighway = 28.9;
+
+    float MaximumMileageDrivingInTown = MaximumGallonsInGasTank * MpgInTown;
     cout << "Maximum mileage driving only in town:";
     cout << MaximumMileageDrivingInTown;
 
     cout << "\n";
 
-    float MaximumMileageDrivingOnTheHighway = 20 * 28.9;
+    float MaximumMileageDrivingOnTheHighway = MaximumGallonsInGasTank * MpgHighway;
     cout << "Maximum mileage driving only on the highway:";
     cout << MaximumMileageDrivingOnTheHighway;
 
